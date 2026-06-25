@@ -1,0 +1,10 @@
+[project]
+name = "ai-eng-mcp-demo"
+version = "0.1.0"
+description = "Finnhub MCP server — real-time stock data for Claude Desktop"
+requires-python = ">=3.12"
+dependencies = [
+    "finnhub-python>=2.4.29",
+    "mcp>=1.28.0",
+    "python-dotenv>=1.2.2",
+]
