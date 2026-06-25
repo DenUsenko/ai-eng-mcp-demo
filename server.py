@@ -112,5 +112,9 @@ and for the one furthest below its own 52-week high, give me a short company ove
 """.strip()
 
 
-if __name__ == "__main__":
+def main():
     mcp.run(transport="stdio")
+
+
+if __name__ == "__main__":
+    main()

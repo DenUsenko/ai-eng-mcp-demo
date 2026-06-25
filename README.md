@@ -29,7 +29,7 @@ MCP-сервер, який підключає Claude Desktop до real-time да
   "mcpServers": {
     "finnhub": {
       "command": "uvx",
-      "args": ["fastmcp", "run", "github:DenUsenko/ai-eng-mcp-demo/server.py"],
+      "args": ["--from", "git+https://github.com/DenUsenko/ai-eng-mcp-demo", "finnhub-mcp"],
       "env": {
         "FINNHUB_API_KEY": "your_key_here"
       }
